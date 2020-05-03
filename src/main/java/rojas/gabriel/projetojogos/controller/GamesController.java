@@ -1,4 +1,4 @@
-package rojas.gabriel.projetojogos.controller;
+﻿package rojas.gabriel.projetojogos.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -15,9 +15,9 @@ public class GamesController {
         Games game = new Games();
 
         game.setName("Crash Bandicoot");
-        game.setGenre("Crash Bandicoot");
-        game.setPlataform("Crash Bandicoot");
-        game.setReleaseDate("Crash Bandicoot");
+        game.setGenre("Aventura");
+        game.setPlataform("PS1");
+        game.setReleaseDate("1999");
 
         return game;
     }
